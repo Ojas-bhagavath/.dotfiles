@@ -1,0 +1,3 @@
+[submodule "qutebrowser"]
+	path = qutebrowser
+	url = git@github.com:Ojas-bhagavath/qutebrowser.git
