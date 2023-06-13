@@ -16,6 +16,7 @@ gnome-tweaks
 ltrace
 make
 meson
+neofetch
 ninja-build
 npm
 p7zip
