@@ -37,7 +37,7 @@ chmod u+x ./1_necessary_installations.sh
   
 ## Further Configurations:  
   
-After the above installation, to install [my zsh config](https://github.com/Ojas-bhagavath/zsh/tree/4843e00c09734b3cc2d6fb81c1061e440f6299d1#zsh), run:
+After the above installation, to install [my zsh config](https://github.com/Ojas-bhagavath/zsh#zsh), run:
 ```bash
 rm $HOME/.zshrc
 rm -rf $HOME/.config/zsh/
@@ -49,7 +49,7 @@ The zsh version that I'm using this config for is ```zsh 5.9 (x86_65-redhat-linu
   
 ##  
     
-After the above installation, to install [my neovim config](https://github.com/Ojas-bhagavath/nvim/blob/main/README.md#nvim), run:  
+After the above installation, to install [my neovim config](https://github.com/Ojas-bhagavath/nvim#nvim), run:  
 ```bash
 rm -rf $HOME/.config/nvim/
 rm -rf $HOME/.local/share/nvim/
@@ -61,7 +61,7 @@ The nvim version that I'm using this config for is ```NVIM v0.10.0-dev+511-g551c
   
 ##  
   
-After the above installation, to install [my qutebrowser config](https://github.com/Ojas-bhagavath/qutebrowser/blob/main/README.md#qutebrowser), run:  
+After the above installation, to install [my qutebrowser config](https://github.com/Ojas-bhagavath/qutebrowser#qutebrowser), run:  
 ```bash
 rm $HOME/.config/qutebrowser/quickmarks
 rm $HOME/.config/qutebrowser/config.py
