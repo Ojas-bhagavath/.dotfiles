@@ -1,0 +1,9 @@
+[submodule "zsh"]
+	path = zsh
+	url = /zsh
+[submodule "nvim"]
+	path = nvim
+	url = /nvim
+[submodule "qutebrowser"]
+	path = qutebrowser
+	url = /qutebrowser
