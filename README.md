@@ -20,7 +20,7 @@ git clone --recurse-submodules https://github.com/Ojas-bhagavath/.dotfiles.git $
   
 2. `cd` into .dotfiles:  
 ```bash
-cd $HOME/.dotfiles
+cd $HOME/.dotfiles/scripts/
 ```  
   
 3. Run the [script 0](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/0_initialize.sh), do review it once:  
