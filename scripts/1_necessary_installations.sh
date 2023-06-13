@@ -4,7 +4,7 @@
 
 # dnf installations
 sudo dnf update --refresh -y
-cat list.txt | xargs sudo dnf install -y 
+cat list.txt | xargs sudo dnf install -y --allowerasing
 
 
 
