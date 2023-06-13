@@ -25,3 +25,7 @@ sudo dnf install neovim -y
 
 echo "necessary installations complete!"
 echo "stow nvim and zsh configs."
+
+
+sleep 10
+reboot

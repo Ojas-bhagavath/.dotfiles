@@ -29,3 +29,5 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 # update the system
 sudo dnf update --refresh -y
+
+reboot
