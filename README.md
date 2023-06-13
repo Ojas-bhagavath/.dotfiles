@@ -72,3 +72,6 @@ stow qutebrowser
 ```  
   
 The qutebrowser version that I'm using this config for is ```qutebrowser v2.5.2```.  
+
+## Credits:  
+* Created this repo and all my setup with endless support of [Ajay Vishnu](https://github.com/ajay-vishnu).
