@@ -15,7 +15,7 @@ My laptop hardware model is ```Asus ZenBook UX425JA```.
 ## Installation: 
 1. Clone this repo:  
 ```bash
-git clone --recurse-submodules https://github.com/Ojas-bhagavath/.dotfiles.git $HOME/.dotfiles/
+git clone --recurse-submodules git@github.com:Ojas-bhagavath/.dotfiles.git $HOME/.dotfiles/
 ```  
   
 2. `cd` into .dotfiles:  
