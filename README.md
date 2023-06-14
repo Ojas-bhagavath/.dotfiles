@@ -61,7 +61,7 @@ cd $HOME/.dotfiles/
 stow nvim
 ```  
   
-The nvim version that I'm using this config for is ```NVIM v0.10.0-dev+511-g551cc3a2a``` (nightly build, from ```agriffis/neovim-nightly``` copr repo).  
+The nvim version that I'm using this config for is ```NVIM v0.10.0-dev+520-gbc67bbe44``` (nightly build, from ```agriffis/neovim-nightly``` copr repo).  
   
 ------  
   
