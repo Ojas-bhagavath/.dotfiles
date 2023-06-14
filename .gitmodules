@@ -1,9 +1,9 @@
-[submodule "qutebrowser"]
-	path = qutebrowser
-	url = git@github.com:Ojas-bhagavath/qutebrowser.git
-[submodule "nvim"]
-	path = nvim
-	url = git@github.com:Ojas-bhagavath/nvim.git
 [submodule "zsh"]
 	path = zsh
-	url = git@github.com:Ojas-bhagavath/zsh.git
+	url = https://github.com/Ojas-bhagavath/zsh.git 
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/Ojas-bhagavath/nvim.git 
+[submodule "qutebrowser"]
+	path = qutebrowser
+	url = https://github.com/Ojas-bhagavath/qutebrowser.git 
