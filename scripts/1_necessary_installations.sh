@@ -14,7 +14,7 @@ flatpak install flathub com.visualstudio.code
 flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub org.qbittorrent.qBittorrent
 flatpak install flathub com.github.ahrm.sioyek
-
+flatpak install flathub io.typora.Typora
 
 
 # install latest nightly build of neovim
@@ -27,6 +27,6 @@ echo "necessary installations complete!"
 echo "stow nvim and zsh configs."
 
 
-echo "Your machine will reboot in 10 seconds!"
+echo "your machine will reboot in 10 seconds!"
 sleep 10
 reboot

@@ -21,6 +21,7 @@ ninja-build
 npm
 p7zip
 p7zip-plugins
+pandoc
 pip
 powerline-fonts
 python3-isort
@@ -32,6 +33,7 @@ shfmt
 speedtest-cli
 stow
 strace
+texlive-latex
 the_silver_searcher
 unrar
 unzip
