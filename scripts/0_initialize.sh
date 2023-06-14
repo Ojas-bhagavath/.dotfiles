@@ -15,20 +15,21 @@ else
 fi
 
 
-sudo dnf install git -y
-
 
 # enable RPM Fusion repository and make it discoverable on GNOME Software
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf groupupdate core
 
 
-# enable flatpak repositories to install other applications
+
+# enable flathub repositories to install flatpaks
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 
 
 # update the system
 sudo dnf update --refresh -y
+
 
 
 echo "Your machine will reboot in 10 seconds!"

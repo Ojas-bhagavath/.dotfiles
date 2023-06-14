@@ -1,45 +1,144 @@
-bat
+# Here's a list of dnf packages with their short description
+# cat, but with wings
+bat                     
+
+# uncompromising python code formatter
 black
+
+# the rust package manager
 cargo
+
+# a C/C++ compiler front end
 clang
+
+# name is pretty self explanatory
 clang-tools-extra
+
+# a utility to build, test, and package softwares
 cmake
-cppcheck
+
+# Visual Studio Code, a code editor
+code
+
+# a static analysis tool for C/C++
+cppcheck                
+
+# client for URL, it gets you stuff
 curl
+
+# ls, on steroids
 exa
+
+# a handy media conversion tool
 ffmpeg
+
+# a decent browser 
 firefox
+
+# a collection of compiler frontends for languages including C, C++, Fortran
 gcc
+
+# a debugger for seceral languages including C/C++
 gdb
-gettext
+
+# a tool that translates messages
+gettext                 
+
+# a powerful version conrtrol system
+git                     
+
+# a GUI application that lets you tweak certain system settings in a GNOME environment
 gnome-tweaks
-ltrace
-make
-meson
+
+# a debugging utility
+ltrace                  
+
+# a utility to recompile pieces of a large program
+make                    
+
+# an optimised build system
+meson                   
+
+# a CLI utility to flex on system specs
 neofetch
+
+# the ultimate no bullshit text/code editor built on vim
+neovim                  
+
+# a fast build system
 ninja-build
+
+# a package manager for Node JavaScript platform
 npm
+
+# a CLI port of an open source file archiver
 p7zip
+
+# the name is pretty self explanatory
 p7zip-plugins
+
+# a document conversion tool
 pandoc
+
+# package managers for softwares written in python
 pip
+
+# a bunch of fonts
 powerline-fonts
+
+# python utility to sort imports alphabetically
 python3-isort
+
+# pip, but with python3
 python3-pip
+
+# a no bullshit highly customisable browser built upon vim keybinds
 qutebrowser
+
+# a framework for reverse-engineering and analyzing binaries
 radare2
+
+# a static analysis tool for shell scripts
 ShellCheck
+
+# a shell formatter tool for POSIX Shell, Sh, Bash, etcetera
 shfmt
+
+# a command line tool to test internet speeds
 speedtest-cli
+
+# a really useful symlink management tool
 stow
+
+# a diagnostic, debugging and instructional userspace utility
 strace
+
+# a collection of latest versions of all major TeX engines
 texlive-latex
+
+# a code searching tool
 the_silver_searcher
+
+# an extraction/compression tool for rar archives
 unrar
+
+# an extraction/compression tool for zip files
 unzip
+
+# a package containing some linux user utilities
 util-linux-user
+
+# a tool for memory debugging and memory leak detection
 valgrind
+
+# a simple media player
 vlc
+
+# a clipboard utility that copies directly from command line
 xclip
+
+# a powerful youtube downloader
 yt-dlp
+
+# an interactive unix shell
 zsh
