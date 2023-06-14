@@ -50,6 +50,9 @@ git
 # a GUI application that lets you tweak certain system settings in a GNOME environment
 gnome-tweaks
 
+$ an information reader
+info
+
 # a debugging utility
 ltrace                  
 
