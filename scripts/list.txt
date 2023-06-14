@@ -99,7 +99,7 @@ qutebrowser
 radare2
 
 # a static analysis tool for shell scripts
-ShellCheck
+shellcheck
 
 # a shell formatter tool for POSIX Shell, Sh, Bash, etcetera
 shfmt
