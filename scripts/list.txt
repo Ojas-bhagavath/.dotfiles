@@ -89,6 +89,9 @@ pandoc
 # a neat password manager
 pass
 
+# an otp manager for pass
+pass-otp
+
 # package managers for softwares written in python
 pip
 
