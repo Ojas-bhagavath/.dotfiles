@@ -21,6 +21,7 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub org.qbittorrent.qBittorrent
 flatpak install flathub com.github.ahrm.sioyek
 flatpak install flathub io.typora.Typora
+flatpak install flathub net.ankiweb.Anki
 
 
 
