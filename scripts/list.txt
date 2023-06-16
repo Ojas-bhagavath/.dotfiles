@@ -5,6 +5,9 @@ bat
 # uncompromising python code formatter
 black
 
+# an advanced system monitor
+btop
+
 # the rust package manager
 cargo
 
@@ -34,6 +37,9 @@ ffmpeg
 
 # a decent browser 
 firefox
+
+# a command line fuzzy-finder
+fzf
 
 # a collection of compiler frontends for languages including C, C++, Fortran
 gcc
@@ -122,6 +128,9 @@ shfmt
 # a command line tool to test internet speeds
 speedtest-cli
 
+# a prompr written in rust
+starship
+
 # a really useful symlink management tool
 stow
 
@@ -133,6 +142,9 @@ texlive-latex
 
 # a code searching tool
 the_silver_searcher
+
+# a tool that gives summaries of man pages
+tldr
 
 # an extraction/compression tool for rar archives
 unrar
@@ -154,6 +166,9 @@ xclip
 
 # a powerful youtube downloader
 yt-dlp
+
+# a smarter alternative to cd
+zoxide
 
 # an interactive unix shell
 zsh
