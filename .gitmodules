@@ -7,3 +7,6 @@
 [submodule "qutebrowser"]
 	path = qutebrowser
 	url = https://github.com/Ojas-bhagavath/qutebrowser.git 
+[submodule "alacritty"]
+	path = alacritty
+	url = /alacritty
