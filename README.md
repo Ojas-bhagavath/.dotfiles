@@ -44,7 +44,9 @@ chmod u+x ./1_necessary_installations.sh
 After the above installation, to install [my zsh config](https://github.com/Ojas-bhagavath/zsh#zsh), run:
 ```bash
 rm $HOME/.zshrc
+rm $HOME/.config/starship.toml
 rm -rf $HOME/.config/zsh/
+rm -rf $HOME/.config/alacritty/
 cd $HOME/.dotfiles/
 stow zsh
 ```  
