@@ -1,14 +1,14 @@
-# .dotfiles
+# .dotfiles-fedora
 
 This repository contains my dotfiles.
     
-[script 0](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/0_initialize.sh) is intended to be run on a Fedora machine, typically on fresh install; it adds a bunch of lines to dnf.conf to make dnf installations faster, enables RPM Fusion repositories, adds Flathub repositories, and updates the machine.  
+[script 0](https://github.com/Ojas-bhagavath/.dotfiles-fedora/blob/main/scripts/0_initialize.sh) is intended to be run on a Fedora machine, typically on fresh install; it adds a bunch of lines to dnf.conf to make dnf installations faster, enables RPM Fusion repositories, adds Flathub repositories, and updates the machine.  
 
-[script 1](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/1_necessary_installations.sh) is intended to be run on a Fedora machine, it installs a bunch of packages listed in [packages.txt](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/list.txt), and installs a few flatpak applications such as Spotify. It also enables ```agriffis/neovim-nightly``` copr repo and installs latest nightly build of neovim.  
+[script 1](https://github.com/Ojas-bhagavath/.dotfiles-fedora/blob/main/scripts/1_necessary_installations.sh) is intended to be run on a Fedora machine, it installs a bunch of packages listed in [packages.txt](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/list.txt), and installs a few flatpak applications such as Spotify. It also enables ```agriffis/neovim-nightly``` copr repo and installs latest nightly build of neovim.  
   
 My current fedora version is ```Fedora Linux 38 (Workstation Edition)```.  
   
-[script 2](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/2_trackpad_driver.sh) is intended to be run on Asus Zenbooks with numpads embedded in trackpads. It installs the driver for the trackpad numpad.  
+[script 2](https://github.com/Ojas-bhagavath/.dotfiles-fedora/blob/main/scripts/2_trackpad_driver.sh) is intended to be run on Asus Zenbooks with numpads embedded in trackpads. It installs the driver for the trackpad numpad.  
   
 My laptop hardware model is ```Asus ZenBook UX425JA```.  
   
@@ -17,7 +17,7 @@ My laptop hardware model is ```Asus ZenBook UX425JA```.
 ## Installation: 
 1. Clone this repo:  
 ```bash
-git clone --recurse-submodules https://github.com/Ojas-bhagavath/.dotfiles.git $HOME/.dotfiles/
+git clone --recurse-submodules https://github.com/Ojas-bhagavath/.dotfiles-fedora.git $HOME/.dotfiles/
 ```  
   
 2. `cd` into .dotfiles:  
@@ -25,13 +25,13 @@ git clone --recurse-submodules https://github.com/Ojas-bhagavath/.dotfiles.git $
 cd $HOME/.dotfiles/scripts/
 ```  
   
-3. Run the [script 0](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/0_initialize.sh), do review it once:  
+3. Run the [script 0](https://github.com/Ojas-bhagavath/.dotfiles-fedora/blob/main/scripts/0_initialize.sh), do review it once:  
 ```bash
 chmod u+x ./0_initialize.sh
 ./0_initialize.sh
 ```  
   
-4. Run the [script 1](https://github.com/Ojas-bhagavath/.dotfiles/blob/main/scripts/1_necessary_installations.sh), it installs packages:  
+4. Run the [script 1](https://github.com/Ojas-bhagavath/.dotfiles-fedora/blob/main/scripts/1_necessary_installations.sh), it installs packages:  
 ```bash
 chmod u+x ./1_necessary_installations.sh
 ./1_necessary_installations.sh
