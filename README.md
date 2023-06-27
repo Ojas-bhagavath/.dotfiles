@@ -41,7 +41,7 @@ chmod u+x ./1_necessary_installations.sh
 
 ## Further Configurations:  
   
-After the above installation, to install [my zsh config](https://github.com/Ojas-bhagavath/zsh#zsh), run:
+After the above installation, to install [my terminal config](https://github.com/Ojas-bhagavath/terminal#terminal), run:
 ```bash
 rm $HOME/.zshrc
 rm $HOME/.config/starship.toml
@@ -69,10 +69,7 @@ The nvim version that I'm using this config for is ```NVIM v0.10.0-dev+520-gbc67
   
 After the above installation, to install [my qutebrowser config](https://github.com/Ojas-bhagavath/qutebrowser#qutebrowser), run:  
 ```bash
-rm $HOME/.config/qutebrowser/quickmarks
-rm $HOME/.config/qutebrowser/config.py
-rm -rf $HOME/.config/qutebrowser/bookmarks/
-rm -rf $HOME/.config/qutebrowser/homepage/
+rm -rf $HOME/.config/qutebrowser/
 cd $HOME/.dotfiles/
 stow qutebrowser
 ```  
