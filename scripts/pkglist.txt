@@ -53,7 +53,7 @@ gettext
 # a powerful version conrtrol system
 git                     
 
-$ an information reader
+# an information reader
 info
 
 # a debugging utility
