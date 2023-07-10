@@ -10,8 +10,7 @@ sudo dnf copr enable atim/starship
 
 
 sudo dnf update --refresh -y
-awk 'NR%3 == 0' < list.txt | xargs sudo dnf install -y --allowerasing
-
+(awk NF $HOME/.dotfiles/scripts/list.txt | awk !'/^#/' | sort) | xargs sudo dnf install
 
 
 # flatpak installations
