@@ -1,9 +1,9 @@
-[submodule "zsh"]
-	path = zsh
-	url = https://github.com/Ojas-bhagavath/terminal.git 
+[submodule "terminal"]
+	path = terminal
+	url = git@github.com:Ojas-bhagavath/terminal.git 
 [submodule "nvim"]
 	path = nvim
-	url = https://github.com/Ojas-bhagavath/nvim.git 
+	url = git@github.com:Ojas-bhagavath/nvim.git 
 [submodule "qutebrowser"]
 	path = qutebrowser
-	url = https://github.com/Ojas-bhagavath/qutebrowser.git 
+	url = git@github.com:Ojas-bhagavath/qutebrowser.git
