@@ -1,6 +1,6 @@
 [submodule "zsh"]
 	path = zsh
-	url = https://github.com/Ojas-bhagavath/zsh.git 
+	url = https://github.com/Ojas-bhagavath/terminal.git 
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/Ojas-bhagavath/nvim.git 
